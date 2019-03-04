@@ -2,7 +2,7 @@ package main
 
 import (
     "fmt"
-    "github.com/Syfaro/telegram-bot-api"
+    "github.com/go-telegram-bot-api/telegram-bot-api"
     "os"
     "reflect"
     "time"
