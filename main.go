@@ -16,7 +16,7 @@ import (
 func main1() {
 	envTelegramToken := "TELEGRAM_TOKEN"
 	log.Println("TELEGRAM_TOKEN: ", os.Getenv(envTelegramToken))
-	bot, err := tgbotapi.NewBotAPI("603048656:AAF2iBRcVYVW2Xx3QYP4xrd7F6AoC0V43Z4")
+	bot, err := tgbotapi.NewBotAPI("...")
 
 	if err != nil {
 		log.Panic(err)
